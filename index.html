@@ -1,90 +1,1198 @@
+﻿
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Exploring HTML5 by Ottomobile</title>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Exploring HTML5</h1>
-      <h2 class="project-tagline">Experimenting With HTML5 Features</h2>
-    </section>
 
-    <section class="main-content">
-      <h3>
+    <title>Otto Lau's Portfolio</title>
 
-<h1>
-<a id="-experimenting-with-html5-features-" class="anchor" href="#-experimenting-with-html5-features-" aria-hidden="true"><span class="octicon octicon-link"></span></a> Experimenting With HTML5 Features </h1>
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap and Font Awesome css -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme stylesheet -->
+    <link href="css/style.green.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- Custom stylesheet - for your changes -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icons/ottofavicon.png">
+
+    <!-- Application Insights -->
+    <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+        }({
+            instrumentationKey:"d5123d2a-3627-4f3f-8b5a-05dfa0de2a78"
+        });
+
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+
+    <!-- Mordernizr -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navigation" data-offset="120">
+
+    <!-- *** NAVBAR *** -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand scrollTo" href="#intro">Otto Lau</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#intro">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#experiences">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- *** NAVBAR END *** -->
+
+    <div id="all">
+
+        <!-- *** INTRO IMAGE *** -->
+        <div id="intro" class="clearfix">
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div id="website-heading">
+                            <h1 data-animate="fadeInDown">Welcome to my website!</h1>
+                            <h1 data-animate="fadeInUp">Otto Lau</h1>
+                            <h2 data-animate="bounceIn">Computer Engineering Student</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *** INTRO IMAGE END *** -->
+        <!-- *** ABOUT *** -->
+        <div class="section" id="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <h2 class="title">About me</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 text-left">
+                            <p>
+                                Hello!  I am Otto, a fourth year computer engineering student currently studying
+                                at the University of British Columbia in Vancouver, BC, Canada!  In my spare time,
+                                I enjoy exploring machine learning, front-end web development, and the latest electronic
+                                gadgets.  Some of my interests include table tennis, hockey, K-pop, and eating food!
+                                This website describes my education, work experience and projects.
+                            </p>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-md-offset-3">
+                            <div data-animate="bounceIn">
+                                <img src="img/main/ProfilePicture.jpg" class="image img-circle img-responsive" alt="Profile Picture">
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+
+                    <div class="row">
+                        <!-- SKILL BARS -->
+                        <div class="col-sm-6">
+                            <div class="heading">
+                                <h3>Languages:</h3>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="progress-title">
+                                    C#
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-skill1" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                                        <span class="sr-only">55</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="progress-title">
+                                    Java
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                        <span class="sr-only">50</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="progress-title">
+                                    C/C++
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                        <span class="sr-only">50</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="progress-title">
+                                    SQL
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                        <span class="sr-only">45</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="progress-title">
+                                    HTML/CSS/Javascript
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                        <span class="sr-only">40</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="progress-title">
+                                    PHP
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-skill6" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                        <span class="sr-only">40</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TOOLS/SERVICES -->
+                        <div class="col-sm-6">
+                            <h3>Tools:</h3>
+                            <p>• Visual Studio</p>
+                            <p>• Team Foundation Server</p>
+                            <p>• SQL Server Management Studio</p>
+                            <p>• Microsoft Azure</p>
+                            <p>• phpMyAdmin</p>
+                            <p>• Eclipse</p>
+                            <p>• Git</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *** ABOUT END *** -->
+        <!-- *** EDUCATION *** -->
+        <div class="section text-gradient" id="education">
+            <div class="container">
+                <h2 class="title">Education</h2>
+
+                <!-- *** UBC *** -->
+                <div class="row education">
+                    <div class="col-md-4" data-animate="fadeInUp">
+                        <img src="img/logos/Logo-UBC.png" class="image img-circle img-responsive" />
+                    </div>
+                    <div class="col-md-8" data-animate="fadeInUp">
+                        <h3 class="heading">The University of British Columbia</h3>
+                        <div class="text-center">
+                            <h4>Computer Engineering: 4th Year</h4>
+                            <h4>2013 – 2018 (Expected)</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-2">
+                                <p>
+                                    <br><span id=courseNum>CPEN 311</span> Digital Systems Design
+                                    <br><span id=courseNum>CPEN 331</span> Operating Systems
+                                    <br><span id=courseNum>CPSC 221</span> Basic Algorithms and Data Structures
+                                    <br><span id=courseNum>CPSC 261</span> Basics of Computer Systems
+                                    <br><span id=courseNum>CPSC 304</span> Introduction to Relational Databases
+                                    <br><span id=courseNum>CPSC 320</span> Intermediate Algorithms and Data Structures
+                                    <br><span id=courseNum>EECE 210</span> Principles of Software Construction
+                                    <br><span id=courseNum>EECE 259</span> Introduction to Microcomputers
+                                    <br><span id=courseNum>EECE 281</span> Electrical and Computer Engineering Design Studio
+                                    <br><span id=courseNum>ELEC 331</span> Computer Communications
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- *** UBC END *** -->
+                <!-- *** INDEPENDENT LEARNING *** -->
+                <div class="row education">
+
+                    <div class="col-xs-12 col-md-4 col-md-push-4" data-animate="fadeInUp">
+                        <div class="icon"><img src="img/logos/Logo-Coursera.png" width="100" /></div>
+                        <h3 class="heading">Cousera</h3>
+                        <p style="text-align:center">
+                            <a href="https://drive.google.com/file/d/0B4pvcHg9iaM0TVBNQ3IwbmYtYVE/view?usp=sharing">
+                                <img class="icon" src="img/icons/Icon-PDF.png" width="25" />
+                            </a>
+                            <a style="color:white" href="https://drive.google.com/file/d/0B4pvcHg9iaM0TVBNQ3IwbmYtYVE/view?usp=sharing">
+                                [Stanford]  Algorithms: Design and Analysis, Part 1
+                            </a>
+                        </p>
+                        <p style="text-align:center">
+                            <a href="https://drive.google.com/file/d/0B4pvcHg9iaM0bVBYSklneWR6aEE/view?usp=sharing">
+                                <img class="icon" src="img/icons/Icon-PDF.png" width="25" />
+                            </a>
+                            <a style="color:white" href="https://drive.google.com/file/d/0B4pvcHg9iaM0bVBYSklneWR6aEE/view?usp=sharing">
+                                [Stanford]  Machine Learning
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 col-md-pull-4" data-animate="fadeInUp">
+                        <div class="icon"><img src="img/logos/Logo-edX.png" width="100" /></div>
+                        <h3 class="heading">edX</h3>
+                        <p style="text-align:center">
+                            <a href="https://drive.google.com/file/d/0B4pvcHg9iaM0OU5sMktMNnFnYzA/view?usp=sharing">
+                                <img class="icon" src="img/icons/Icon-PDF.png" width="25" />
+                            </a>
+                            <a style="color:white" href="https://drive.google.com/file/d/0B4pvcHg9iaM0OU5sMktMNnFnYzA/view?usp=sharing">
+                                [W3C]  HTML5 Web Design Fundamentals
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4" data-animate="fadeInUp">
+                        <div class="icon"><img src="img/logos/Logo-MVA.png" width="100" /></div>
+                        <h3 class="heading">Microsoft Virtual Academy</h3>
+                        <p style="text-align:center">
+                            <a href="https://drive.google.com/open?id=0B4pvcHg9iaM0TU1XR21pU295Nlk">
+                                <img class="icon" src="img/icons/Icon-PDF.png" width="25" />
+                            </a>
+                            <a style="color:white" href="https://drive.google.com/open?id=0B4pvcHg9iaM0TU1XR21pU295Nlk">
+                                Learned about the Windows 10 platform and web development technologies
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+                <!-- *** INDEPENDENT LEARNING END *** -->
+
+            </div>
+        </div>
+        <!-- *** EDUCATION END *** -->
+        <!-- *** EXPERIENCE *** -->
+        <div class="section text-gray" id="experiences">
+            <div class="container">
+                <div class="mb20">
+                    <h2 class="title">Experience</h2>
+                </div>
+
+                <div class="row">
+                    <!-- ELECTRONIC ARTS -->
+                    <div class="col-md-3">
+                        <img src="img/work/Work-EA.png" class="img img-responsive" />
+                    </div>
+                    <div class="col-md-9 text-left">
+                        <h3>Electronic Arts</h3>
+                        <p>
+                            Development and Release Engineering - Associate Software Developer (Full-Time Co-op Position)
+                            <br />
+                            <i>September 2016 - Present</i>
+                        </p>
+                        <ul>
+                            <li>Configuring Jenkins projects to optimize and automate the build process for game teams.</li>
+                            <li>Writing Chef cookbooks to automate the configuration of virtual machines.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <!-- UBC CPS-->
+                    <div class="col-md-3">
+                        <img src="img/work/Work-UBC.png" class="img img-responsive" />
+                    </div>
+                    <div class="col-md-9 text-left">
+                        <h3>UBC Department of Cellular and Physiological Sciences</h3>
+                        <p>
+                            Information Technology and Website Assistant (Work-Learn Position)
+                            <br />
+                            <i>May 2016 – August 2016</i>
+                        </p>
+                        <ul>
+                            <li>Developed an <u><a style="color:#555555" href="http://timemanagementsystem.azurewebsites.net/"><span class="glyphicon glyphicon-globe"></span> ASP.NET Core MVC web application</a></u> that allows users to log and calculate time for pay periods and manage other users.</li>
+                            <li>Updated the content and layout of the department’s website with WordPress, HTML and CSS.</li>
+                            <li>Troubleshooted computer issues and setup computers, network printers and software for department members.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <!-- STATISTICS CANADA-->
+                    <div class="col-md-3">
+                        <img src="img/work/Work-StatCan.png" class="img img-responsive" />
+                    </div>
+                    <div class="col-md-9 text-left">
+                        <h3>Statistics Canada</h3>
+                        <p>
+                            Programmer (Full-Time Co-op Position)
+                            <br />
+                            <i>May 2015 – December 2015</i>
+                        </p>
+                        <ul>
+                            <li>Implemented test suites to verify the implementation of a formula builder.</li>
+                            <li>Resolved user interface issues of an economic statistics application using C#, WPF, and Infragistics.</li>
+                            <li>Modified the dependencies on over 150 projects to optimize the application's build process.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *** EXPERIENCE END *** -->
+        <!-- *** PROJECTS *** -->
+        <div class="section" id="projects">
+            <div class="container">
+
+                <div class="mb20">
+                    <h2 class="title">Projects</h2>
+                </div>
+
+                <div class="panel-group" id="collapse">
+                    <!-- Snowbots Pylon Detection -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <img src="img/snowbots/Pylon-Drum.jpg" class="img img-responsive img-thumbnail" />
+                                    </div>
+                                    <div class="col-sm-5 col-md-6">
+                                        <h4 class="panel-title panel-heading" style="font-weight:bold">
+                                            UBC Snowbots - Pylon Detection Algorithm
+                                        </h4>
+                                        <p class="text-center">
+                                            Implemented a pylon detection algorithm for the
+                                            team’s autonomous ground robot using C++, OpenCV,
+                                            and the Robot Operating System.
+                                        </p>
+                                        <!--<a href="https://github.com/UBC-Snowbots/IGVC2015/blob/master/sb_vision/src/Pylon_Detector/Pylon_Detector.cpp" class="btn btn-info button-link-size">Github Repo</a>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-one" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>-->
+                                    </div>
+                                    <div class="col-sm-2  col-md-3">
+                                        <a href="https://github.com/UBC-Snowbots/IGVC2015/blob/master/sb_vision/src/Pylon_Detector/Pylon_Detector.cpp" class="btn btn-info button-link-size">Github Repo</a>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-one" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="collapse-one" class="panel-collapse collapse">
+                            <div class="panel-body" style="text-align:left; background-color:#f2ffe5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-7 col-md-offset-2">
+                                            <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/VvUiUWtbxbA?rel=0" frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            <div>
+                                                <h4>Pylon Detection Algorithm Demo</h4>
+                                                <p>Detecting an orange and white striped pylon on my webcam</p>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-7 col-md-offset-2">
+                                            <div class="bs-example">
+                                                <div id="carousel-snowbots" class="carousel slide" data-ride="carousel" style="width:100%; margin:0 auto">
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-snowbots" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-snowbots" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-snowbots" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="carousel-inner">
+                                                        <div class="item active">
+                                                            <img class="img img-responsive" alt="Pylon Detection Stages (Image 1)" src="img/snowbots/ColorDetectPylons-1.png" />
+                                                            <div class="carousel-caption" id="caption-snowbots">
+                                                                <h4>Pylon Detection Stages</h4>
+                                                                <p>Stages of the pylon detection algorithm on an image of the IGVC obstacle course</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Pylon Detection Stages (Image 2)" src="img/snowbots/ColorDetectPylons-2.png" />
+                                                            <div class="carousel-caption" id="caption-snowbots">
+                                                                <h4>Pylon Detection Stages</h4>
+                                                                <p>Stages of the pylon detection algorithm on an image of the IGVC obstacle course</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Bounding Box" src="img/snowbots/BoundingBox.png" />
+                                                            <div class="carousel-caption" id="caption-snowbots">
+                                                                <h4>Drawing Rectangles that Bound Related Regions</h4>
+                                                                <p>
+                                                                    Used rectanges' midpoints to determine related regions that identify a pylon
+                                                                </p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a class="left carousel-control" href="#carousel-snowbots" data-slide="prev">
+                                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#carousel-snowbots" data-slide="next">
+                                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="new-caption-area-snowbots"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <label class="label label-primary">Languages/tools used: </label> &nbsp;
+                                <label class="label label-info">C++</label>
+                                <label class="label label-info">Git</label>
+                                <label class="label label-info">OpenCV</label>
+                                <label class="label label-info">Robot Operating System</label>
+                                <label class="label label-info">Ubuntu</label>
+                                <br />
+                                <br />
+                                <p>
+                                    UBC Snowbots is an engineering design team that makes an autonomous ground vehicle to
+                                    compete in the international Intelligent Ground Vehicle Competition (IGVC) held in Michigan.
+                                    Our vehicle nagivates a terrain of obstacles without any human input.
+                                </p>
+                                <p>
+                                    I was responsible for implementing pylon detection on the robot.  The goal was to identify
+                                    the orange and white striped pylons from the camera input stream and frame them with a large
+                                    black box.
+                                </p>
+                                <p>
+                                    Details of algorithm:
+                                </p>
+                                <ol>
+                                    <li>
+                                        The algorithm first uses colour filtering to identify orange regions
+                                        in an input stream that indicate the locations of pylons.
+                                    </li>
+                                    <li>
+                                        Then, contours from these filtered images are extracted and used to draw rectangles
+                                        that bound the orange regions.
+                                    </li>
+                                    <li>
+                                        The midpoints of the rectangles are analysed to determine the proximity of
+                                        the orange regions.
+                                    </li>
+                                    <li>
+                                        If two rectangles are close to each other, those orange regions should be from the same
+                                        pylon and bound a white region in between.  Finally, draw a large black box that covers
+                                        those orange and white regions to mark the pylon.
+                                    </li>
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gmail Webpage Retriever -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-sm-2">
+                                        <img src="img/gmail/gmail.png" class="img img-responsive img-thumbnail" />
+                                    </div>
+                                    <div class="col-sm-5 col-md-6">
+                                        <h4 class="panel-title panel-heading" style="font-weight:bold">
+                                            Gmail Webpage Retriever
+                                        </h4>
+                                        <p class="text-center">
+                                            Constructed an application that processes incoming emails containing Google search
+                                            keywords or webpage addresses and automatically sends back an email with the
+                                            attached search results or webpage content.
+                                        </p>
+                                        <!--<a href="https://github.com/Ottomobile/GmailWebEmail" class="btn btn-info">Github Repo</a>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-two" class="btn btn-success" role="button">
+                                            Expand details
+                                        </a>-->
+                                    </div>
+                                    <div class="col-sm-2  col-md-3">
+                                        <a href="https://github.com/Ottomobile/GmailWebEmail" class="btn btn-info button-link-size">Github Repo</a>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-two" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapse-two" class="panel-collapse collapse">
+                            <div class="panel-body" style="text-align:left; background-color:#f2ffe5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-11 col-centered">
+                                            <div class="col-xs-11 col-md-5">
+                                                <h4 class="heading">Searching Google Using Selenium</h4>
+                                                <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/bSRZPGzpVag?rel=0" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                                <br />
+                                            </div>
+                                            <div class="col-xs-11 col-md-5">
+                                                <h4 class="heading">Downloading Webpage as PDF</h4>
+                                                <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/F_HnnKgnrMA?rel=0" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-11 col-centered">
+                                            <div class="col-xs-11 col-md-5">
+                                                <h4 class="heading">Retrieving HTML Source</h4>
+                                                <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/kPp9fo1liQA?rel=0" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                                <br />
+                                            </div>
+                                            <div class="col-xs-11 col-md-5">
+                                                <h4 class="heading">Mirroring Website with HTTrack</h4>
+                                                <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/9KGlJnJRsig?rel=0" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-11">
+                                            <hr />
+                                            <label class="label label-primary">Languages/tools used: </label> &nbsp;
+                                            <label class="label label-info">Eclipse</label>
+                                            <label class="label label-info">Gmail API</label>
+                                            <label class="label label-info">HTTrack</label>
+                                            <label class="label label-info">Java</label>
+                                            <label class="label label-info">Mac OS Terminal</label>
+                                            <label class="label label-info">Selenium</label>
+                                            <br />
+                                            <br />
+
+                                            <p>This Java application enables a user to browse the internet through their email.</p>
+                                            <p>Four different retrieval methods are supported:</p>
+                                            <ol>
+                                                <li>
+                                                    <span style="font-weight:bold">Searching Google through Selenium – </span>
+                                                    User sends an email with Google search keywords and automatically receives an email
+                                                    back containing the Google search results. The search results contain webpage
+                                                    addresses that could be used with the retrieval methods below.
+                                                    <p></p>
+                                                </li>
+                                                <li>
+                                                    <span style="font-weight:bold">Downloading a webpage as a PDF through Selenium – </span>
+                                                    User sends an email containing a webpage address and automatically receives an email
+                                                    back with the webpage attached as a PDF.
+                                                    <p></p>
+                                                </li>
+                                                <li>
+                                                    <span style="font-weight:bold">Extracting webpage’s HTML source – </span>
+                                                    User sends an email containing a webpage address and automatically receives an email
+                                                    back containing the plain HTML source of the webpage.
+                                                    <p></p>
+                                                </li>
+                                                <li>
+                                                    <span style="font-weight:bold">Mirroring website content using HTTrack – </span>
+                                                    User sends an email containing a webpage address and HTTrack options and automatically
+                                                    receives a zip file containing the webpage contents.  This method allows the retrieval
+                                                    of HTML files directed by the links found in the original page.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Snake Halloween Game -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-sm-2">
+                                        <img src="img/snakeapp/SnakeHalloweenGameAppIcon-300px.png" class="img img-responsive img-thumbnail" />
+                                    </div>
+                                    <div class="col-sm-5 col-md-6">
+                                        <h4 class="panel-title panel-heading" style="font-weight:bold">
+                                            Microsoft DevMov - Snake Halloween Game
+                                        </h4>
+                                        <p class="text-center">
+                                            Developed and published a snake game for Windows Desktop and Phone platforms
+                                            using HTML/CSS/Javascript.
+                                        </p>
+                                        <!--<a href="https://www.microsoft.com/en-us/store/games/snake-halloween-game/9nblggh6cl9z " class="btn btn-info button-link-size">Microsoft Store</a>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-three" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>-->
+                                    </div>
+                                    <div class="col-sm-2 col-md-3">
+                                        <a href="https://www.microsoft.com/en-us/store/games/snake-halloween-game/9nblggh6cl9z " class="btn btn-info button-link-size">Microsoft Store</a>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-three" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapse-three" class="panel-collapse collapse">
+                            <div class="panel-body" style="text-align:left; background-color:#f2ffe5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-7 col-md-offset-2">
+                                            <div class="bs-example" id="second">
+                                                <div id="carousel-snake-app" class="carousel slide" data-ride="carousel" style="width:100%; margin:0 auto">
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-snake-app" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-snake-app" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-snake-app" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="carousel-inner">
+                                                        <div class="item active">
+                                                            <img class="img img-responsive" alt="Windows Store Screenshot" src="img/snakeapp/SnakeHalloweenGameWindowsStore.png" />
+                                                            <div class="carousel-caption" id="caption-snake-app">
+                                                                <h4>App on the Windows Store</h4>
+                                                                <p><a href="https://www.microsoft.com/en-us/store/games/snake-halloween-game/9nblggh6cl9z ">Link to the app on the Windows Store</a></p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Windows 10 Deskstop Screenshot" src="img/snakeapp/Screenshot-Desktop.png" />
+                                                            <img />
+                                                            <div class="carousel-caption" id="caption-snake-app">
+                                                                <h4>Desktop screenshot of app</h4>
+                                                                <p>App running on a Windows 10 Desktop</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Windows Phone Screenshot" src="img/snakeapp/Screenshot-WindowsPhone.png" />
+                                                            <div class="carousel-caption" id="caption-snake-app">
+                                                                <h4>Windows Phone Screenshot</h4>
+                                                                <p>App running on a Windows Phone emulator</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a class="left carousel-control" href="#carousel-snake-app" data-slide="prev">
+                                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#carousel-snake-app" data-slide="next">
+                                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="new-caption-area-snake-app"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-11">
+                                            <label class="label label-primary">Languages/tools used: </label> &nbsp;
+                                            <label class="label label-info">CSS</label>
+                                            <label class="label label-info">HTML</label>
+                                            <label class="label label-info">Javascript</label>
+                                            <label class="label label-info">Visual Studio</label>
+                                            <br />
+                                            <br />
+
+                                            <p>
+                                                One of the major challenges for Microsoft’s Developer Movement was to
+                                                publish a Halloween themed app to the Windows Store.  This was an awesome
+                                                opportunity for me to apply the HTML/CSS/Javascript skills I learned from
+                                                Codeacademy and knowledge gained from doing Windows Dev Center tutorials.
+                                                This challenge allowed me to experience the app preparation and submission
+                                                process.
+                                            </p>
+                                            <p>
+                                                Using Visual Studio, I coded a Halloween themed snake game for both Windows
+                                                Desktop and Phone.  The objective was to obtain points by eating the pumpkins.
+                                                The game is over when the snake touches a ghost, crashes into a wall, or hits
+                                                itself.  The game progressively gets harder as an additional ghost appears
+                                                every time a pumpkin is eaten.
+                                            </p>
+                                            <p>
+                                                In the future, I hope to use the Apache Cordova tools in Visual Studio for
+                                                porting my app onto the Android and iOS mobile platforms.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Arduino Robot -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-sm-2">
+                                        <img src="img/281robot/Robot Stationary.jpg" class="img img-responsive img-thumbnail" />
+                                    </div>
+                                    <div class="col-sm-5 col-md-6">
+                                        <h4 class="panel-title panel-heading" style="font-weight:bold">
+                                            Arduino Robot
+                                        </h4>
+                                        <p class="text-center">
+                                            As a team, built a robot that could autonomously avoid objects and also be controlled
+                                            by a Wii Nunchuk Controller.
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-2 col-md-3">
+                                        <div class="label label-info button-link-size" id="project-course-work-label">Course Work</div>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-four" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapse-four" class="panel-collapse collapse">
+                            <div class="panel-body" style="text-align:left; background-color:#f2ffe5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-sm-offset-2 col-md-5 col-md-offset-3">
+                                            <div class="bs-example" id="second">
+                                                <div id="carousel-281robot" class="carousel slide" data-ride="carousel" style="width:100%; margin:0 auto">
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-281robot" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-281robot" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-281robot" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="carousel-inner">
+                                                        <div class="item active">
+                                                            <img class="img img-responsive" alt="Fritzing Schematic - Robot" src="img/281robot/Fritzing Schematic- 281Robot.png" />
+                                                            <div class="carousel-caption" id="caption-281robot">
+                                                                <h4>Fritzing Schematic</h4>
+                                                                <p>Components and connections of the robot</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Robot Controlled by Wii Nunchuk" src="img/281robot/Robot Moving.png" />
+                                                            <img />
+                                                            <div class="carousel-caption" id="caption-281robot">
+                                                                <h4>Robot Controlled by Wii Nunchuk</h4>
+                                                                <p>Wii Nunchuck could control the speed, direction, and mode of the robot</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Wheel encoder" src="img/281robot/Wheel.jpg" />
+                                                            <div class="carousel-caption" id="caption-281robot">
+                                                                <h4>Wheel Encoder</h4>
+                                                                <p>Marked wheel for the wheel encoder</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a class="left carousel-control" href="#carousel-281robot" data-slide="prev">
+                                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#carousel-281robot" data-slide="next">
+                                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="new-caption-area-281robot"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-11">
+                                            <label class="label label-primary">Languages/tools used: </label> &nbsp;
+                                            <label class="label label-info">Arduino</label>
+                                            <label class="label label-info">C</label>
+                                            <label class="label label-info">Processing</label>
+                                            <br />
+                                            <br />
+
+                                            <p>
+                                                The goal of this project was to construct an autonomous vehicle that
+                                                moves straight and turns 90 degrees to avoid objects.  Our team’s
+                                                Arduino-controlled robot contained an ultrasonic sensor mounted on a
+                                                servo motor for object detection.  The robot starts moving forward until
+                                                it detects an object in front of it.  Then, the robot stops and the
+                                                servo motor rotates the ultrasonic sensor.  Whichever direction has
+                                                the most space to move will be the direction the robot will travel towards.
+                                            </p>
+                                            <p>
+                                                A Wii Nunchuk Controller could also control the robot’s movement.  Tilting
+                                                the Nunchuk controls the speed and direction of the robot.  Moving the
+                                                joystick rotates the servo motor with the ultrasonic sensor.  Pressing the
+                                                Z-button allowed the user to switch between autonomous and human-controlled modes.
+                                            </p>
+                                            <p>
+                                                A challenge we faced was getting the robot to go straight and turn exactly 90
+                                                degrees.  Due to battery drainage, friction, and weight balance, the robot’s
+                                                movements over time would become inconsistent.  Wheel encoders were designed
+                                                to address this issue by using an IR sensor to record wheel rotations and
+                                                adjusting the speed of the motors to compensate for rotation variations.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wi-Fi Piano -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-sm-2">
+                                        <img src="img/wifipiano/Physical Piano Interface.jpg" class="img img-responsive img-thumbnail" />
+                                    </div>
+                                    <div class="col-sm-5 col-md-6">
+                                        <h4 class="panel-title panel-heading" style="font-weight:bold">
+                                            Wifi Piano
+                                        </h4>
+                                        <p class="text-center">
+                                            As a team, developed a software application and a physical piano interface that
+                                            communicated over wifi to play sounds.
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-2 col-md-3">
+                                        <div class="label label-info button-link-size" id="project-course-work-label">Course Work</div>
+                                        <p></p>
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-five" class="btn btn-success button-link-size" role="button">
+                                            Expand details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapse-five" class="panel-collapse collapse">
+                            <div class="panel-body" style="text-align:left; background-color:#f2ffe5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-7 col-md-offset-2">
+                                            <div class="bs-example" id="second">
+                                                <div id="carousel-wifipiano" class="carousel slide" data-ride="carousel" style="width:100%; margin:0 auto">
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-wifipiano" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-wifipiano" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-wifipiano" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="carousel-inner">
+                                                        <div class="item active">
+                                                            <img class="img img-responsive" alt="Wifi Piano Demo" src="img/wifipiano/Wifi Piano Demo.png" />
+                                                            <div class="carousel-caption" id="caption-wifipiano">
+                                                                <h4>The Software and Physical Interfaces of the Piano</h4>
+                                                                <p>The two interfaces play sounds on each other through wifi</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Software Interface" src="img/wifipiano/Software Piano Interface.png" />
+                                                            <img />
+                                                            <div class="carousel-caption" id="caption-wifipiano">
+                                                                <h4>Software Interface of the Piano</h4>
+                                                                <p>Computer screenshot of the piano interface</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <img class="img img-responsive" alt="Fritzing Schematic - Wifi Piano" src="img/wifipiano/Fritzing Schematic- Wifi Piano.png" />
+                                                            <div class="carousel-caption" id="caption-wifipiano">
+                                                                <h4>Fritzing Schematic</h4>
+                                                                <p>Components and connections of the physical piano interface</p>
+                                                                <hr />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a class="left carousel-control" href="#carousel-wifipiano" data-slide="prev">
+                                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#carousel-wifipiano" data-slide="next">
+                                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="new-caption-area-wifipiano"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-11">
+                                            <label class="label label-primary">Languages/tools used: </label> &nbsp;
+                                            <label class="label label-info">Arduino</label>
+                                            <label class="label label-info">C</label>
+                                            <label class="label label-info">Processing</label>
+                                            <br />
+                                            <br />
+
+                                            <p>
+                                                Our team built a software application and a physical piano interface
+                                                that could communicate with each other over wifi.  Clicking the screen
+                                                or pressing keys on the computer could wirelessly trigger the physical
+                                                piano to play sounds.  Similarly, pressing the keys on the piano could
+                                                wirelessly play sounds and update the user interface of the software
+                                                application.  The software application also allowed the recording and
+                                                playback of melodies created using either interfaces.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Construct 2 Games -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-sm-8 col-sm-offset-1">
+                                        <h4 class="panel-title panel-heading" style="font-weight:bold">
+                                            Construct 2 Games
+                                        </h4>
+                                        <p class="text-center">
+                                            Developed games with the Construct 2 game creation software and published them
+                                            to the Windows Store for the Microsoft Developer Movement Program.
+                                        </p>
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 col-sm-offset-1">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh6jglr">
+                                            <img src="img/construct2/UFOSpaceshipShooterLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh6jglr">UFO Spaceship Shooter</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh5k5jz">
+                                            <img src="img/construct2/FlyingSnowmanLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh5k5jz">Flying Snowman</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh5pnrj">
+                                            <img src="img/construct2/TrafficDodgerLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh5pnrj">Traffic Dodger</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh4r4cr">
+                                            <img src="img/construct2/UFOSpaceBreakoutLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh4r4cr">UFO Space Breakout</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 col-sm-offset-1">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh4m9f8">
+                                            <img src="img/construct2/SuperHeroRescueLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh4m9f8">Super Hero Rescue</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh4vh14">
+                                            <img src="img/construct2/GuardianOfTheWatersLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh4vh14">Guardian of the Waters</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh4vdjb">
+                                            <img src="img/construct2/AirplaneTravelConductorLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh4vdjb">Airplane Travel Conductor</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <a href="https://www.microsoft.com/store/apps/9nblggh4vdch">
+                                            <img src="img/construct2/SoccerShotPracticeLogo.png" class="img img-responsive img-thumbnail" />
+                                        </a>
+                                        <a style="color:black" href="https://www.microsoft.com/store/apps/9nblggh4vdch">Soccer Shot Practice</a>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- *** PROJECTS END *** -->
+        <!-- *** FOOTER *** -->
+        <div class="section" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <p class="social">
+                                    <a class="email" data-animate-hover="shake" href="mailto:otto.lau@hotmail.com">
+                                        <i class="fa fa-envelope"></i>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-sm-10">
+                                <p class="social">
+                                    <a class="link" href="mailto:otto.lau@hotmail.com" style="color:white">Otto.Lau@Hotmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <p class="social">
+                                    <a class="linkedin" data-animate-hover="shake" href="https://www.linkedin.com/in/otto-lau">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-sm-10">
+                                <p class="social">
+                                    <a class="link" href="https://www.linkedin.com/in/otto-lau" style="color:white">LinkedIn Profile</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <p class="social">
+                                    <a class="instagram" data-animate-hover="shake" href="https://github.com/ottomobile">
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-sm-10">
+                                <p class="social">
+                                    <a class="link" href="https://github.com/ottomobile" style="color:white">Github Page</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>&copy; 2016 Otto Lau.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+        <!-- *** FOOTER END *** -->
 
 
-<p> I will use this page to try out some of the new features introduced in HTML5 from W3C's edX course. </p>
+    </div>
+    <!-- /#all -->
+    <!-- #### JAVASCRIPT FILES ### -->
+    <!-- js base -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-<main>
-<section>
+    <!-- for demo purpose -->
+    <script src="js/jquery.cookie.js"></script>
 
+    <!-- waypoints for scroll spy -->
+    <script src="js/waypoints.min.js"></script>
 
-<h2>Ottawa Sights and Scenery</h2>
-<p>Hello world! Currently I am doing a work term here in Ottawa. Ottawa offers many beautiful sights and attractions.</p>
+    <!-- masonry layout -->
+    <script src="js/masonry.pkgd.min.js"></script>
 
-<article>
-<h3>Parliament Building</h3>
-  <figure style="width:560px; margin:0 auto;">
-    <img width="560" src= "https://upload.wikimedia.org/wikipedia/commons/2/22/Parliament-Ottawa.jpg"/>
-    <figcaption> The Parliament Building. Source: <a href="https://upload.wikimedia.org/wikipedia/commons/2/22/Parliament-Ottawa.jpg">Wikipedia</a> </figcaption>
-  </figure>
-  <p>The main attraction in the nation's capital. On Canada Day, July 1st, many Canadians and tourists celebrate Canada's birthday by coming together to enjoy concerts and fireworks (see video below of Ottawa's Canada Day 2015 events</p>
-  <div style="width:560px; margin:0 auto;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2NMT4um5opM" frameborder="0" allowfullscreen></iframe>
-  </div>
-</article>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
 
-<article>
-  <h3>Sunday Bikedays</h3>
-  <p>In the summer months, the city closes down the Sir John A. Macdonald Parkway road on Sunday mornings
-    for bikers to ride.  This stretch of road is about 10km and runs along the Ottawa River.
-    <figure style="width:560px; margin:0 auto;">
-    <img width="560" src= "http://res.cloudinary.com/loxghdm2d/image/upload/v1439596744/IMG_20150802_111232_n6zbgc.jpg"/>
-    <figcaption>Geese can be seen along the path on Sunday Bikedays</figcaption>
-</figure>
-<article>
-  
-<article>
-  <h3>RibFest</h3>
-  <p>In August 2015, rib vendors from around the continent competed for the title of best ribs at Ottawa City Hall.</p>
-    <figure style="width:560px; margin:0 auto;">
-    <img width="560" src= "http://res.cloudinary.com/loxghdm2d/image/upload/v1443911378/IMG_20150803_114231_a6cm1w.jpg"/>
-</figure>
-<article>
-  
-<article>
-  <h3>Rideau Canal</h3>
-  <p>The Rideau Canal is a UNESCO World Heritage Site that was built originally built as a safety measure to protect Upper Canada 
-    against rumored invasions by the United States after the War of 1812.  Today, it is primarily used for pleasure boating.
-    In the winter, the canal freezes and allows people to skate on it.</p>
-    <figure style="width:560px; margin:0 auto;">
-    <img width="560" src= "http://res.cloudinary.com/loxghdm2d/image/upload/v1443911376/IMG_20150803_135408_gtysb9.jpg"/>
-    <figcaption>Boats moving up the canal.</figcaption>
-</figure>
-<article>
-  
-</section>
-</main>
+    <!-- jQuery scroll to -->
+    <script src="js/jquery.scrollTo.min.js"></script>
 
-<p style="font-size: 2em; font-weight: bold; color: green">TO BE CONTINUED...</p>
+    <!-- jQuery counter -->
+    <script src="js/jquery.counterup.min.js"></script>
 
-      <footer class="site-footer">
+    <!-- jQuery parallax -->
+    <script src="js/jquery.parallax-1.1.3.js"></script>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+    <!-- Custom carousel with caption below the images-->
+    <!-- Must be called before main js file -->
+    <link href="css/image-carousel.css" rel="stylesheet" />
+    <script src="js/jquery-image-carousel.js"></script>
 
-    </section>
+    <!-- Collapses navbar on click for smaller screens -->
+    <script>
+        $(document).on('click', '.navbar-collapse.in', function (e) {
+            if ($(e.target).is('a')) {
+                $(this).collapse('hide');
+            }
+        });
+    </script>
 
-  
-  </body>
+    <!-- main js file -->
+    <script src="js/front.js"></script>
+</body>
+
 </html>
-
