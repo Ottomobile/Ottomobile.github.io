@@ -29,3 +29,10 @@
     border-radius: 0px;
     background-color: #042895
 }
+
+#courseNum {
+    color: yellow;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 3px;
+}
